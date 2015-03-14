@@ -29,6 +29,8 @@ RUN git clone --depth=1 https://github.com/angular/material-start.git material-s
 
 WORKDIR ${HOME}/material-starter
 
+RUN chown -R dev:dev ${HOME}
+
 RUN npm install -g http-server bower && \
 	npm install && \
 	bower install --allow-root
