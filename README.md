@@ -2,7 +2,7 @@
 
 Whats in the box?
 
-* Base install of Node - including `http-server`
+* Base install of Node.js - including `http-server`
 * Sublime Text
 * tmux
 * Clone of [Angular Material Starter](https://github.com/angular/material-start)
